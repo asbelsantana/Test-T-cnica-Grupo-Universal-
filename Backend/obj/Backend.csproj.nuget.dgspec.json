@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj": {}
+    "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj": {
+    "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\asbel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

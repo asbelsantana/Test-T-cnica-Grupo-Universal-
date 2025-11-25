@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LtpPCjkeyZQ=",
+  "dgSpecHash": "TWCAuZyEs0w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\asbel\\Desktop\\TestUniversal\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\asbel\\Desktop\\QA\\Test-T-cnica-Grupo-Universal-\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asbel\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\asbel\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

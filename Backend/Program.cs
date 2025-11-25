@@ -51,6 +51,9 @@ builder.Services.AddControllers();
 // -----------------------------------------------------
 // 5. SWAGGER CONFIG
 // -----------------------------------------------------
+// -----------------------------------------------------
+// 5. SWAGGER CONFIG REFACTORIZADA
+// -----------------------------------------------------
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -60,14 +63,15 @@ builder.Services.AddSwaggerGen(opt =>
         Version = "v1"
     });
 
-    // JWT en Swagger
+    // Configuración JWT para Swagger
     opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,
+        Type = SecuritySchemeType.Http,       // Http en lugar de ApiKey
         Scheme = "Bearer",
+        BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Introduce el token JWT con el prefijo Bearer. Ejemplo: Bearer {token}"
+        Description = "Introduce el token JWT. Ejemplo: 12345abcdef"
     });
 
     opt.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -85,6 +89,7 @@ builder.Services.AddSwaggerGen(opt =>
         }
     });
 });
+
 
 var app = builder.Build();
 
